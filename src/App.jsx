@@ -5,7 +5,7 @@ import './App.css'
 
 function App() {
   return (
-    <Router>
+    <Router basename={'/react-portfolio'}>
       <div className="App">
         <Layout />
       </div>
